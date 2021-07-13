@@ -1,0 +1,90 @@
+table {
+  text-align: center;
+}
+td {
+  font-family: "Lato", sans-serif;
+  color: red;
+}
+th {
+  font-family: "Comfortaa", cursive;
+  color: red;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  border: 2px;
+  box-sizing: border-box;
+  border-style: solid;
+}
+p {
+  font-size: 20px;
+  font-family: "Lato", sans-serif;
+  line-height: 25px;
+}
+
+h1 {
+  font-family: "Comfortaa", cursive;
+  text-decoration: underline;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  font-family: "Comfortaa", cursive;
+  padding: 5px;
+}
+ul {
+  font-size: 20px;
+  font-family: "Lato", sans-serif;
+  line-height: normal;
+  margin-left: auto;
+  margin-right: auto;
+}
+.list-group {
+  background: radial-gradient(
+    circle,
+    hsla(195, 53%, 79%, 1) 0%,
+    hsla(195, 53%, 79%, 0.1) 100%
+  );
+  color: #ff0000;
+  font-family: "Lato", sans-serif;
+}
+.list-group-item {
+  background: radial-gradient(
+    circle,
+    hsla(195, 53%, 79%, 1) 0%,
+    hsla(195, 53%, 79%, 0.1) 100%
+  );
+  color: #ff0000;
+  font-weight: light;
+  font-family: "Lato", sans-serif;
+}
+body {
+  background: radial-gradient(
+    circle,
+    hsla(195, 53%, 79%, 1) 0%,
+    hsla(195, 53%, 79%, 0.1) 100%
+  );
+  color: #ff0000;
+  font-family: "Lato", sans-serif;
+  display: flexbox;
+}
+.navbar-brand {
+  color: red;
+}
+li {
+  color: red;
+}
+#bar {
+  color: #ff0000;
+}
+
+dl,
+dt {
+  font-family: "Lato", sans-serif;
+  border-radius: 5px;
+  font-weight: light;
+  border-color: lightblue;
+  box-shadow: 2px 2px 2px 2px rgb(199, 111, 111);
+}
