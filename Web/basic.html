@@ -1,0 +1,152 @@
+<!-- Design a web page with the following specifications: 1. Print a paragraph that
+is a description of a book( say a book from harry potter series or sherlock
+holmes), include the title of the book as well as its author. Names and titles
+should be underlined, adjectives should be italicized and bolded. Set page color
+to light blue and text color to red. Display the image of the book has a border
+of size 2, a width of 200, and a height of 200 at the right corner of the page.
+Create a page with a link at the top of it that when clicked will jump all the
+way to the bottom of the page. Specify the characters using list (with 5
+items).Print few acronyms and abbreviations of your choosing, each separated by
+two lines. Specify the data that the abbreviations and acronyms represent.
+Include a table to display 5 such books of the same author with title and price.
+* -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sherlock Holmes and Hound of Baskervilles</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+    rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="/style.css">
+  </head>
+<body>
+  <nav class="navbar navbar-light navbar-expand-xl sticky-top " id="bar" style="
+  background: radial-gradient(
+    circle,
+    hsla(195, 53%, 79%, 1) 0%,
+    hsla(195, 53%, 79%, 0.1) 100%
+  ); backdrop-filter: blur(10px);">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#" style="color: red;">KRATOS BOOKSTORE</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarLight" aria-controls="navbarLight" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse " id="navbarLight">
+      <ul class="navbar-nav me-auto mb-2 mb-xl-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#" style="color: red;">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#list" style="color: red;">Characters</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#tbl" style="color: red;">Other Books</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  <h1 class = "display-1">The Hound of Baskervilles</h1>
+  <h2>By<br>
+    <sub>Sir Arthur Conan Doyle
+  </h2></sub>
+  <hr>
+   
+  <p class = "lead m-2">The <b>Hound of the Baskervilles</b> is the third of the four <i>crime</i> novels
+    written by Sir Arthur Conan Doyle featuring the detective Sherlock Holmes.
+    Originally serialised in The Strand Magazine from August 1901 to April
+    1902, it is set largely on Dartmoor in Devon in England's West Country and
+    tells the story of an attempted murder inspired by the legend of a
+    <i>fearsome</i>, <i> diabolical</i> hound of supernatural origin.</p>
+   
+   
+    <p class="m-2">Sherlock Holmes and his
+    companion Dr. Watson investigate the case. This was the first appearance
+    of Holmes since his apparent death in "The Final Problem", and the success
+    of The Hound of the Baskervilles led to the character's eventual revival.
+    One of the most famous stories ever written,in 2003, the book was listed
+    as number 128 of 200 on the BBC's The Big Read poll of the UK's
+    "best-loved novel". In 1999, it was listed as the top Holmes novel, with a
+    perfect rating from Sherlockian scholars of 100.
+  </p>
+  <hr>
+    <img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1355929358l/8921.jpg" align="right">
+  <p>
+    Holmes is consulted in his Baker Street apartment by Dr. Mortimer, a
+    physician now living on the fringes of Dartmoor. He gives Holmes and
+    Watson an account of a centuries-old legend, in which a hell-hound
+    slaughtered the <i>debauched</i> heir of the Baskerville family who had been in
+    lecherous pursuit of an innocent maiden across the moor. The same hound is
+    reputed to have harrowed several of the subsequent heirs to the estate.
+    This ancient story might be dismissed as mere fancy, but for the fact that
+    the elderly Sir Charles Baskerville recently died in very mysterious
+    circumstances, apparently fleeing in terror from something which came from
+    the moor. Dr. Mortimer is concerned that the new heir, Sir Henry, just
+    returned from Canada, may be at risk from this supernatural beast. Holmes
+    is intrigued, but being too busy to go himself, sends Dr. Watson to
+    accompany Sir Henry to the ancestral home on Dartmoor and to report
+    anything suspicious.
+  </p>
+  <hr>
+  <ul class = "list-group" id="list"><b>Characters in the book:</b>
+    <li class = "list-group-item">Sherlock Holmes</li>
+    <li class = "list-group-item">Dr.John Watson</li>
+    <li class = "list-group-item">Henry Baskerville</li>
+    <li class = "list-group-item">Dr.Mortimer</li>
+    <li class = "list-group-item">Sir Charles Baskerville</li>
+  </ul>
+
+  <div class="container-fluid p-5">
+    <h2><b>Other Books</b></h2>
+    <table class="center table table-borderless" id="tbl">
+      <thead>
+        <th><b>Book Name</b></th>
+        <th><b>Price</b></th>
+      </thead>
+      <tr>
+        <td>The Sign of Four</td>
+        <td>Rs.145</td>
+      </tr>
+      <tr>
+        <td>A Study in Scarlet</td>
+        <td>Rs.257</td>
+      </tr>
+      <tr>
+        <td>Valley of Fear</td>
+        <td>Rs.875</td>
+      </tr>
+      <tr>
+        <td>The Land of Mist</td>
+        <td>Rs.375</td>
+      </tr>
+    </table>
+  </div>
+<div class="container-fluid ">
+  <p class="display-6" style="font-family: 'Comfortaa',sans-serif;">Abbreviations and their Acronyms</p>
+  <dl>
+    <dt>AM/PM:</dt>
+    <dd>Abbreviations for “ante meridiem” and “post meridiem”</dd>
+    <dt>SOHCAHTOA:</dt>
+    <dd>Acronym used in mathematics to remember the trigonometric functions sine, cosine, and tangent.</dd>
+    <dt>SOS:</dt>
+    <dd>Commonly assumed to stand for “save our ship”, but technically, the international distress signal doesn’t stand for anything</dd>
+    <dt>CAPTCHA:</dt>
+    <dd>Completely Automated Public Turing Test to tell Computers and Humans Apart</dd>
+  </dl>
+</div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"></script>
+</body>
+
+</html>
