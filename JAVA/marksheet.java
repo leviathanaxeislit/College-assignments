@@ -1,6 +1,6 @@
 import java.util.*;
 
-class zaynmarks {
+class Student1marks {
     String name;
     int lang2, eng2, cpp, dsa, cpplab, dsalab, maths2, total_marks;
 
@@ -25,12 +25,12 @@ class zaynmarks {
         System.out.println("Enter your Maths-II marks for Subject: ");
         maths2 = scn.nextInt();
         total_marks = lang2 + eng2 + cpp + dsa + cpplab + dsalab + maths2;
-        System.out.println(" The total Marks of " + name + " is : " + total_marks);
+        System.out.println(" The Total Marks of " + name + " is : " + total_marks);
 
     }
 }
 
-class harrymarks {
+class Student2marks {
     String frnd;
     int lang2, eng2, cpp, dsa, cpplab, dsalab, maths2, total_marks;
 
@@ -63,9 +63,9 @@ public class marksheet {
     public static void main(String args[])
 
     {
-        zaynmarks obj = new zaynmarks();
+        Student1marks obj = new Student1marks();
         obj.total();
-        harrymarks obj1 = new harrymarks();
+        Student2marks obj1 = new Student2marks();
         obj1.total();
     }
 
